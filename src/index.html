@@ -11,3 +11,17 @@
   <app-root></app-root>
 </body>
 </html>
+
+<!-- "ng g c components/FolderName" คำสั่งในการสร้างfolder component ที่ประกอบด้วย ไฟล์ต่างๆ(css,html,ts) -->
+<!--
+  สร้าง node-backend
+    ใช้คำสั่ง "mkdir node-backend(ชื่อfolder) && cd node-backend "
+  -Add dependencies
+    ใช้คำสั่ง "npm i express cors body-parser mongoose" >> enter
+  -ทำ Dev เพื่อที่เวลามีการเปลี่ยนแปลงcode เราจะไม่ให้มัน restart server ทุกครั้ง
+    ใช้คำสั่ง "npm nodemon --save-dev"
+  -ต่อมา สร้าง database folder
+    "mkdir database && cd database && touch db.js"
+  -สร้าง schema หรือตารางของฐานข้อมูลเราที่ราจะมีการเพิ่มเข้าไป
+    new folder ใน model ชื่อ Book.js
+-->
