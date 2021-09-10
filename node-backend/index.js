@@ -26,6 +26,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(cors());
 
+// กำหนดการเชื่อมต่อกับ database mongoDB
 // Static directory path
 app.use(express.static(path.join(__dirname, 'dist/'))) // __dirname จะไปหาที่อยู่ของโปรเจคเรา เพื่อไม่ให้มีปัญหาในการเปิดเว็บที่อื่น แล้วไปแสดงผลที่ '/dist'
 // Base route
